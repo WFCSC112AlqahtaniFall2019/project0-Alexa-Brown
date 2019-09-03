@@ -1,6 +1,7 @@
+
+// Alexa Brown, CSC 112, Project 0
 #include <iostream>
 using namespace std;
-//Not finished yet
 int main() {
     cout << "Hello, World! " << endl;
     int i=-10;
