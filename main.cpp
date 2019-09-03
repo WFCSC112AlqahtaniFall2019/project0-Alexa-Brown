@@ -26,20 +26,22 @@ int main() {
     cin>> equalto2;
 
 
-    for (i = -10; i >-11; i--){
-        cout << "Hi" << endl;
-        for (j = -10; j > -11; j--){
-            cout << "Hiii" << endl;
+    for (i = -10; i <11; i++){
+        for (j = -10; j <11; j++){
             if ((firstEquationx * i) + (firstEquationy * i) == equalto1){
-                cout << "Hello"<<endl;
                 if ((secondEquationx * j) + (secondEquationy * j) == equalto2){
-                    cout << "x = " << i << "y = " << j << endl;
+
+                    cout << "x = " <<  i << endl;
+                    cout << "y = " << j << endl;
                     break;
                 }
+
             }
         }
     }
-        cout << "No solution." <<endl;
+    cout << "No solution." <<endl;
+
+
 
     return 0;
 }
